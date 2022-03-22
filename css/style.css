@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	color: #898989;
+}
+
+header{
+	background-color: transparent;
+}
+#hero{
+	text-align: center;
+	background-image: url("../img/Services-Title-Image.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	}
+#hero h1{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-weight: 800;
+	color: #fff;
+}
+
+.overlay{
+	padding: 160px 0px;
+}
+
+.section{
+	padding: 60px 0px;
+}
+
+#services h4{
+	color: #303030;
+	font-size: 20px;
+	text-align: center;
+}
+#services p{
+	font-size: 17px;
+	text-align: center;
+}
+#services i{
+	align-content: center;
+	font-size: 100px;
+	padding-bottom: 30px;
+	color: #e0e0e0;
+}
+
+#info{
+	background-color: #f7f7f7;
+	
+}
+
+#info h2,h3,h4{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#info h4{
+	color: #282d33;
+}
+#info p{
+	text-align: center;
+}
+#info img{
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+footer{
+	background-color: #282d33;
+	color: #bbb;
+	padding: 20px 0px;
+	font-size: 14px;
+}
+footer li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #171717;
+	display: block;
+	text-align: center;
+	border-radius: 100%;
+	color: #58606b;
+	font-size: 16px;
+}
+footer li a:hover{
+	background-color: #000;
+	color: #fff;
+	
+}
+
+footer li a.fb:hover{
+	background-color: #3b5998;
+}
+footer li a.ig:hover{
+	background-color: #DD2A7B;
+}
+footer li a.tw:hover{
+	background-color: #00ACEE;
+}
+footer li a.lk:hover{
+	background-color: #0E76A8;
+}
